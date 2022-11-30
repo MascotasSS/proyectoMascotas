@@ -1,0 +1,261 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*===================MENU==========================*/
+
+ #menu a{
+     font-size: 18px !important;
+     font-weight: 600;
+     color:#3f3f3f;  
+     text-align: center; 
+ }
+ .logo{
+
+    width: 150px !important;
+    height: 150px !important;
+   margin-top: -25px;
+  }
+  #menu{
+    margin-bottom: -40px;
+ 
+ }
+
+/*===================BACKGROUND IMAGE==========================*/ 
+ #background {
+    background: url(../../Assets/Index/Background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+ }
+
+#container{
+    margin: 0 25px 0 25px ;
+} 
+
+/*=========================FOOTER================================*/
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos     {
+    text-align: center   
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+/*===================HEADER INFO==========================*/
+
+ #textPresentation {
+    margin-right: 10 !important;
+ }
+
+/*===================SLIDER DE IMAGE==========================*/
+
+#table{
+    width: 260px;
+    margin-left: 12px;
+}
+/*=========================FOOTER================================*/
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+/*=========================MEDIA QUERIES SCREEN MAX================================*/
+@media (max-width: 1600px){
+     #razas {
+            margin-top: 5px !important;
+        }
+
+    #razas img{
+            width: 300px;
+            height: 220px;
+        }
+}
+/*=========================MEDIA QUERIES SCREEN MAX================================*/
+@media (max-width: 1400px){
+     #razas {
+            margin-top: 5px !important;
+        }
+#table{
+    width: 260px;
+    margin-left: 12px;
+}
+    #razas img{
+            width: 260px;
+            height: 220px;
+        }
+}
+/*=========================MEDIA QUERIES SCREEN EXTRA ANCHA================================*/
+@media (max-width:1200px){
+
+    #img-header {
+            width: 400px !important;
+        }
+
+    #presentation p{
+            font-size: 16px;
+        }
+#table{
+    width: 200px;
+    margin-left: 9px;
+}
+     #razas {
+            margin-top: 5px !important;
+        }
+
+    #razas img{
+            width: 220px !important;
+            height: 180px !important;
+        }
+}
+
+/*=========================MEDIA QUERIES SCREEN ANCHA================================*/
+
+@media (max-width:992px){
+
+    #presentation {
+        width:90% !important;
+        margin:auto;
+    }
+#table{
+    width: 300px;
+    margin-left: 30px;
+}
+    #img-header {
+            width: 350px !important;
+        }
+
+    #presentation p{
+            font-size: 16px;
+        }
+
+    #contRazas {
+        padding-bottom: 0px !important;
+    }
+
+     #razas {
+            margin-top: 0px !important;
+        }
+ #navbarNavAltMarkup {
+           margin-left: 60px;
+           margin-top: -35px;
+    }
+    #razas img{
+            width: 300px !important;
+            margin-top: 20px;
+            height: 200px !important;
+        }
+        .logo{
+
+            width: 150px !important;
+            height: 150px !important;
+           margin-top: 0px;
+          }
+          #menu{
+            margin-bottom: 0px;
+         
+
+
+}
+/*=========================MEDIA QUERIES SCREEN SM================================*/
+
+@media (max-width:768px) {
+
+    #container {
+       justify-content: center !important;   
+       align-self: center !important;
+       align-items: center !important;
+    }
+
+    #presentation {
+        width: 80% !important;
+        margin-top: 250px !important;
+        position: absolute !important;
+        text-align: center !important;
+        
+    }
+#navbarNavAltMarkup {
+           margin-left: 70px;
+           margin-top: -35px;
+    }
+    #img-header {
+            width: 300px !important;
+            margin-bottom: 200px !important;
+            position: relative !important;
+        }
+#table{
+    width: 250px;
+    margin-left: 145px;
+}
+    #presentation p{
+            font-size: 15px;
+        }
+
+    #containerRazas {
+        margin-top: 10px !important;
+    }
+
+     #razas {
+            margin-top: 5px !important;
+        }
+
+    #razas img{
+            width: 250px !important;
+            height: 250px !important;
+        }
+}
+/*=========================MEDIA QUERIES SCREEN EXTRA-SM================================*/
+@media (max-width: 576px) {
+   
+     #img-header {
+            width: 250px !important;
+        }
+
+    #presentation p{
+            font-size: 14px;
+        }
+#navbarNavAltMarkup {
+           margin-left: 60px;
+           margin-top: -35px;
+    }
+    #razas {
+            margin-top: 5px !important;
+        }
+#table{
+    width: 350px;
+    margin-left: 67px;
+}
+    #razas img{
+            width: 350px !important;
+            height: 250px !important;
+        }
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+        }
+    }

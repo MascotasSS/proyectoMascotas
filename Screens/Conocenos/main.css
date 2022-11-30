@@ -1,0 +1,186 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*===================MENU==========================*/
+
+ #menu a{
+     font-size: 18px !important;
+     font-weight: 600;
+     color:#3f3f3f;  
+     text-align: center; 
+ }
+ .logo{
+
+    width: 150px !important;
+    height: 150px !important;
+   margin-top: -25px;
+  }
+  #menu{
+    margin-bottom: -40px;
+ 
+ }
+
+/*===================HEADER==========================*/
+
+
+/*===================PRESENTACIÓN==========================*/
+#container {
+width: 100%;
+min-height: 100vh;
+}
+#imageContainer {
+width: 50%;
+min-height: 100vh;
+
+}
+#infoContainer {
+    width: 50%;
+    min-height: 100vh;
+    
+    margin-left: 50%;
+    margin-top: -100vh;
+}
+#image{
+    width: 400px;
+    height: 250px;
+    margin-top: 40%;
+    margin-left: 18%;
+}
+
+#paragraph1{
+    
+    width: 100%;
+    height: 200px;
+    padding-top: 40px;
+}
+#paragraph2{
+    
+       width: 100%;
+        height: 200px;
+        padding-top: 40px;
+}
+#paragraph3{
+    
+       width: 100%;
+    height: 200px;
+    padding-top: 40px;
+}
+#paragraph4{
+    
+       width: 100%;
+    height: 200px;
+    padding-top: 40px;
+}
+ 
+#icon{
+    font-size: 30px;
+    color: black;
+    margin-top: 40px;
+} 
+
+#title{
+    margin-left: 40px;
+    margin-top: -35px;
+}
+
+#subtitle{
+    margin-left: 40px;
+}
+/*===================BACKGROUND IMAGE==========================*/ 
+ #background {
+    background: url(../../Assets/Index/Background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+ }
+
+/*=========================FOOTER================================*/
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos     {
+    text-align: center   
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
+/*=========================MEDIA QUERIES SCREEN MAX================================*/
+@media (max-width: 1600px){
+   
+}
+/*=========================MEDIA QUERIES SCREEN MAX================================*/
+@media (max-width: 1400px){
+   
+}
+/*=========================MEDIA QUERIES SCREEN EXTRA ANCHA================================*/
+@media (max-width:1200px){
+
+   
+}
+
+/*=========================MEDIA QUERIES SCREEN ANCHA================================*/
+
+@media (max-width:992px){
+
+    #navbarNavAltMarkup {
+           margin-left: 60px;
+           margin-top: -35px;
+    }
+        .logo{
+
+            width: 150px !important;
+            height: 150px !important;
+           margin-top: 0px;
+          }
+          #menu{
+            margin-bottom: 0px;
+         
+}
+#infoContainer{
+    width: 50%;
+    min-height: 100vh;
+    margin-left: 0px;
+    margin-top: -20vh;
+}
+
+}
+/*=========================MEDIA QUERIES SCREEN SM================================*/
+
+@media (max-width:768px) {
+#navbarNavAltMarkup {
+           margin-left: 70px;
+           margin-top: -35px;
+    }
+    
+}
+/*=========================MEDIA QUERIES SCREEN EXTRA-SM================================*/
+@media (max-width: 576px) {
+   #navbarNavAltMarkup {
+           margin-left: 60px;
+           margin-top: -35px;
+    }
+   
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+        }
+    }
+    

@@ -1,0 +1,275 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*===================MENU==========================*/
+
+ #menu a{
+     font-size: 18px !important;
+     font-weight: 600;
+     color:#3f3f3f;  
+     text-align: center; 
+ }
+ .logo{
+
+    width: 150px !important;
+    height: 150px !important;
+   margin-top: -25px;
+  }
+  #menu{
+    margin-bottom: -40px;
+ 
+ }
+
+/*===================BACKGROUND IMAGE==========================*/ 
+ #background {
+    background: url(../../Assets/Index/Background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 70vh;
+ }
+
+/*===================SLIDER DE IMAGE==========================*/
+
+
+#exampleFormControlInput1{
+    width: 400px;
+    margin-right: 30px;
+}
+
+#presentation{
+    width: 600px;
+    margin-top: -40px;
+    padding-bottom: 80px;
+}
+
+/*=========================FOOTER================================*/
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos {
+    text-align: center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+#img-header{
+    margin-top: -50px !important;
+}
+#container{
+    margin-left: 50px;
+}
+
+#form{
+    margin-top: 40px;
+}
+/*=========================MEDIA QUERIES SCREEN MAX================================*/
+@media (max-width: 1600px){
+     #razas {
+            margin-top: 5px !important;
+        }
+          #exampleFormControlInput1{
+            width: 400px;
+            margin-right: 0px;
+        }
+
+    #razas img{
+            width: 436px;
+            height: 220px;
+        }
+}
+
+
+/*=========================MEDIA QUERIES SCREEN MAX================================*/
+@media (max-width: 1400px){
+     #razas {
+            margin-top: 5px !important;
+        }
+          #exampleFormControlInput1{
+            width: 400px;
+            margin-right: 0px;
+        }
+
+    #razas img{
+            width: 376px;
+            height: 220px;
+        }
+    
+}
+
+/*=========================MEDIA QUERIES SCREEN EXTRA ANCHA================================*/
+@media (max-width:1200px){
+
+    #img-header {
+            width: 400px !important;
+        }
+
+    #presentation p{
+            font-size: 16px;
+        }
+        #exampleFormControlInput1{
+            width: 300px;
+            margin-right: 0px;
+        }
+
+     #razas {
+            margin-top: 5px !important;
+        }
+
+    #razas img{
+            width: 315px;
+            height: 200px;
+        }
+}
+
+/*=========================MEDIA QUERIES SCREEN ANCHA================================*/
+
+@media (max-width:992px){
+
+    #presentation {
+        width:90% !important;
+        margin:auto;
+    }
+
+    #img-header {
+            width: 350px !important;
+        }
+
+    #presentation p{
+            font-size: 16px;
+        }
+        #form{
+                       margin-top: 50px;
+        }
+
+     #razas {
+            margin-top: 5px !important;
+        }
+
+    #razas img{
+            width: 355px;
+            height: 200px;
+        }
+ #navbarNavAltMarkup {
+           margin-left: 60px;
+           margin-top: -35px;
+    }
+        .logo{
+
+            width: 150px !important;
+            height: 150px !important;
+           margin-top: 0px;
+          }
+          #menu{
+            margin-bottom: 0px;
+         
+         }
+
+
+}
+/*=========================MEDIA QUERIES SCREEN SM================================*/
+
+@media (max-width:768px) {
+
+    #presentation {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    #img-header {
+            width: 300px !important;
+        }
+
+     #gmap_canvas {
+
+     }
+
+    #presentation p{
+            font-size: 15px;
+        }
+#navbarNavAltMarkup {
+           margin-left: 70px;
+           margin-top: -35px;
+    }
+     #razas {
+            margin-top: 5px !important;
+        }
+         #divForm{
+            flex-direction: column !important;
+        }
+        #form{
+            margin-left: 160px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        #exampleFormControlInput1{
+            width: 380px;
+            margin-right: 0px;
+        }
+        form p {
+            width: 70% !important;
+        }
+
+
+    #razas img{
+            width: 400px;
+            height: 250px;
+        }
+}
+/*=========================MEDIA QUERIES SCREEN EXTRA-SM================================*/
+@media (max-width: 576px) {
+   
+     #img-header {
+            width: 250px !important;
+        }
+
+    #presentation p{
+            font-size: 14px;
+        }
+        form p {
+            width: 80% !important;
+        }
+#navbarNavAltMarkup {
+           margin-left: 60px;
+           margin-top: -35px;
+    }
+    #razas {
+            margin-top: 5px !important;
+        }
+         #exampleFormControlInput1{
+            width: 300px;
+            margin-right: 0px;
+        }
+        #form{
+            margin-left: 50px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+
+    #razas img{
+            width: 400px;
+            height: 250px;
+        }
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+        }
+    }
+    
